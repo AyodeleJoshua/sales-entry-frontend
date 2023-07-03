@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: left;
+  padding: 2px 5px;
+}
+
+button {
+  padding: 5px;
+}
+
+.delete-button {
+  background: rgb(254, 105, 105);
+  border: 0;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination-button:hover {
+  background: #909090;
+  cursor: pointer;
+  border: 1px solid #909090;
+}
+
+.error-meassage {
+  color: rgb(254, 105, 105);
+}
+
+.form-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.form-field {
+  margin-right: 10px;
+
+  input,
+  select {
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+
+input,
+select {
+  padding: 5px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.pagination-button-set {
+  display: flex;
+  gap: 8px;
+  button {
+    display: inline-block;
+  }
+}
+
+.header-seection {
+    margin: 20px 0;
+}
